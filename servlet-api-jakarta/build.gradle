@@ -1,0 +1,5 @@
+dependencies {
+    api project(':servlet-api')
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
+}
+

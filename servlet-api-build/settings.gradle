@@ -1,0 +1,16 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenLocal()
+        maven {
+            url = "https://maven.aliyun.com/repository/public"
+        }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'servlet-api-build'
+
+includeFlat 'servlet-api'
+includeFlat 'servlet-api-javax'
+includeFlat 'servlet-api-jakarta'
